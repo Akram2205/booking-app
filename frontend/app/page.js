@@ -7,11 +7,10 @@ import PropertyList from "@/components/propertyList/propertyList";
 import GuestLoves from "@/components/guestLoves/GuestLoves";
 import MailSection from "@/components/mailSection/MailSection";
 import Footer from "@/components/footer/Footer";
-import { BrowserRouter } from "react-router-dom";
 
 export default function Home() {
   return (
-       <BrowserRouter>
+
           <div>    
           <Header/>
           <Featured/>
@@ -20,7 +19,7 @@ export default function Home() {
           <MailSection/>
           <Footer/>
         </div>
-       </BrowserRouter>
+
 
 
 
