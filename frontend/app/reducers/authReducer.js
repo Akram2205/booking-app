@@ -2,6 +2,14 @@
 
 export const authReducer = (currentState,action) =>{
     switch (action.type) {
+        case 'INITIALIZE_USER':
+        return(
+            {
+                user: action.payload ,
+                loading: false,
+                error: false,
+            }
+        )
         case 'login':
             return({
                 user: null,
